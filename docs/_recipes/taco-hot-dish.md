@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Recipe Name"
+title: "Taco Hot Dish"
 ---
 
 **Servings:** X

@@ -1,6 +1,5 @@
 title: "Recipes"
-description: "A collection of my personal recipes"
-theme: minima
+description: "Cook some food"
 collections:
   recipes:
     output: true
