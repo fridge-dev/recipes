@@ -3,39 +3,8 @@
 
 @import "minima";
 
-.page-content hr,
-.wrapper hr,
-main hr,
 hr {
-  border: none !important;
-  border-top: 1px solid #ddd !important;
-  height: 0 !important;
-  margin: 1rem 0 !important;
-  background: none !important;
-}
-
-.ingredient-item {
-  display: flex;
-  align-items: center;
-  margin: 0.5rem 0;
-}
-
-.ingredient-item input[type="checkbox"] {
-  margin-right: 0.5rem;
-}
-
-.ingredient-item.checked {
-  color: #888;
-  text-decoration: line-through;
-}
-
-.section-link {
-  color: #0066cc;
-  text-decoration: none;
-  font-size: 0.8em;
-  margin-left: 0.5rem;
-}
-
-.section-link:hover {
-  text-decoration: underline;
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
 }
