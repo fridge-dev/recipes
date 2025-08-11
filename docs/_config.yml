@@ -1,0 +1,9 @@
+title: My Recipe Collection
+description: A simple collection of cooking recipes
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed

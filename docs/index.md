@@ -1,16 +1,16 @@
 ---
-layout: home
-title: Recipes Index
+layout: default
+title: My Recipe Collection
 ---
 
-# Recipes Header
+# My Recipe Collection
+
+A simple collection of my favorite cooking recipes.
+
+## Recipes
 
 {% for recipe in site.pages %}
   {% if recipe.path contains 'recipes/' %}
-- [{{ recipe.title }}]({{ recipe.url }})
+- [{{ recipe.title }}]({{ recipe.url | relative_url }})
   {% endif %}
 {% endfor %}
-
----
-
-Source code: https://github.com/fridge-dev/recipes
