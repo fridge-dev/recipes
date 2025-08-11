@@ -7,7 +7,6 @@ highlighter: rouge
 
 plugins:
   - jekyll-feed
-  - jekyll-anchor-headings
 
 defaults:
   - scope:
