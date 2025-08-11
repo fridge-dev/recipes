@@ -1,13 +1,7 @@
 ---
 layout: default
-title: My Recipe Collection
+title: Recipes
 ---
-
-# My Recipe Collection
-
-A simple collection of my favorite cooking recipes.
-
-## Recipes
 
 {% for recipe in site.pages %}
   {% if recipe.path contains 'recipes/' %}
