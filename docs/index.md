@@ -1,11 +1,16 @@
 ---
-layout: default
-title: "Home"
+layout: home
+title: Recipes Index
 ---
 
-{% for recipe in site.recipes %}
+# Recipes Header
+
+{% for recipe in site.pages %}
+  {% if recipe.path contains 'recipes/' %}
 - [{{ recipe.title }}]({{ recipe.url }})
+  {% endif %}
 {% endfor %}
 
+---
 
 Source code: https://github.com/fridge-dev/recipes

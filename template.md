@@ -1,6 +1,6 @@
 ---
-layout: recipe
-title: "Recipe Name"
+layout: default
+title: Recipe Name
 ---
 
 **Servings:** X

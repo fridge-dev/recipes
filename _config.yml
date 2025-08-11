@@ -1,6 +1,19 @@
-title: "Recipes"
-description: "Cook some food"
+title: Recipe Collection
+description: An incomplete collection of my favorite recipes
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "recipes"
+      type: "pages"
+    values:
+      layout: "recipe"
+
 collections:
   recipes:
     output: true
-    permalink: /recipes/:name
+    permalink: /:collection/:name/
