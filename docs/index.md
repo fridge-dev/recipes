@@ -8,3 +8,7 @@ title: Recipes
 - [{{ recipe.title }}]({{ recipe.url | relative_url }})
   {% endif %}
 {% endfor %}
+
+---
+
+Source code at <https://github.com/fridge-dev/recipes>

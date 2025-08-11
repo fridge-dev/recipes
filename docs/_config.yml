@@ -7,3 +7,11 @@ highlighter: rouge
 
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: "recipes"
+      type: "pages"
+    values:
+      layout: "default"
+      permalink: /:basename
